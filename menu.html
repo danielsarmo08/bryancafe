@@ -66,27 +66,27 @@
       //END: PROCESS MEALS
 
       //BEGIN: PROCESS COFFEE AND HOT CHOCOLATE
-      let itemsInCoffeeAndHotChocolate = xmlDoc.querySelectorAll("coffeeAndHotChocolate > item");
-      let coffeeAndHotChocolateContainer = document.querySelector(".coffeeAndHotChocolateContainer");
+      // let itemsInCoffeeAndHotChocolate = xmlDoc.querySelectorAll("coffeeAndHotChocolate > item");
+      // let coffeeAndHotChocolateContainer = document.querySelector(".coffeeAndHotChocolateContainer");
 
-      for(index = 0; index < itemsInCoffeeAndHotChocolate.length; index++)
-      {
-        coffeeAndHotChocolateContainer.appendChild(addBeverage(itemsInCoffeeAndHotChocolate[index].querySelector("size").textContent
-                                                            ,itemsInCoffeeAndHotChocolate[index].querySelector("price").textContent
-                                                  ));
-      }
+      // for(index = 0; index < itemsInCoffeeAndHotChocolate.length; index++)
+      // {
+      //   coffeeAndHotChocolateContainer.appendChild(addBeverage(itemsInCoffeeAndHotChocolate[index].querySelector("size").textContent
+      //                                                       ,itemsInCoffeeAndHotChocolate[index].querySelector("price").textContent
+      //                                             ));
+      // }
       //END: PROCESS COFFEE AND HOT CHOCOLATE
 
       //BEGIN: PROCESS OTHER BEVERAGES
-      let itemsInOther = xmlDoc.querySelectorAll("other > item");
-      let otherBeveragesContainer = document.querySelector(".otherBeverages");
+      // let itemsInOther = xmlDoc.querySelectorAll("other > item");
+      // let otherBeveragesContainer = document.querySelector(".otherBeverages");
 
-      for(index = 0; index < itemsInOther.length; index++)
-      {
-        otherBeveragesContainer.appendChild(addBeverage(itemsInOther[index].querySelector("name").textContent
-                                                            ,itemsInOther[index].querySelector("price").textContent
-                                                  ));
-      }
+      // for(index = 0; index < itemsInOther.length; index++)
+      // {
+      //   otherBeveragesContainer.appendChild(addBeverage(itemsInOther[index].querySelector("name").textContent
+      //                                                       ,itemsInOther[index].querySelector("price").textContent
+      //                                             ));
+      // }
       //END: PROCESS OTHER BEVERAGES
 
       document.querySelector("#currentYear").textContent = getCurrentYear();
