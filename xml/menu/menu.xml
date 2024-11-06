@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+  <meal>
+    <item>
+      <name>Latte classic</name>
+      <price>$4.80</price>
+      <description>A latte is a popular coffee drink made with espresso and steamed milk, typically topped with a small amount of foam. It has a creamy texture and a mild coffee flavor, making it a favorite for those who prefer a smoother, less intense coffee experience.</description>
+      <image>latte.jpg</image>
+    </item>
+    <item>
+      <name>Iced Latte</name>
+      <price>$8.00</price>
+      <description>An iced latte is a refreshing coffee drink made with espresso, cold milk, and ice. It's smooth, creamy, and chilled, perfect for a cool caffeine boost.</description>
+      <image>iced_latte.jpg</image>
+    </item>
+    <item>
+      <name>Piccolo</name>
+      <price>$10.00</price>
+      <description>Small but intense espresso-based drink, typically served in a demitasse cup. It consists of a single shot of espresso topped with a small amount of steamed milk, creating a rich, smooth flavor with a slightly creamy texture.</description>
+      <image>piccolo.jpg</image>
+    </item>
+    <item>
+      <name>Cappuccino</name>
+      <price>$11.00</price>
+      <description>A cappuccino is a classic coffee drink made with equal parts espresso, steamed milk, and frothed milk. It has a rich, bold coffee flavor balanced with a creamy texture and a light, airy foam on top.</description>
+      <image>cappuccino.jpg</image>
+    </item>
+    <item>
+      <name>Espresso</name>
+      <price>$9.50</price>
+      <description>Espresso is a concentrated coffee brewed by forcing hot water through finely ground coffee beans under high pressure. It has a strong, bold flavor and a thick, syrupy consistency, often served in small, 1-ounce shots.</description>
+      <image>espresso.jpg</image>
+    </item>
+  </meal>
+  <beverage>
+    <coffeeAndHotChocolate>
+      <item>
+        <size>Small</size>
+        <price>$3.50</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+      </item>
+      <item>
+        <size>Regular</size>
+        <price>$4.00</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+      </item>
+      <item>
+        <size>Large</size>
+        <price>$4.50</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+      </item>
+    </coffeeAndHotChocolate>
+    <other>
+      <item>
+        <name>Soda</name>
+        <price>$3.00</price>
+      </item>
+      <item>
+        <name>Fresh juice</name>
+        <price>$6.00</price>
+      </item>
+      <item>
+        <name>Bottled water</name>
+        <price>$2.00</price>
+      </item>
+    </other>
+  </beverage>
+</menu>
